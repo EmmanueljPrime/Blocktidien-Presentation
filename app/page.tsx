@@ -19,6 +19,21 @@ export default function Home() {
     return () => clearTimeout(timer)
   }, [current, isAutoPlay])
 
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "ArrowRight" || e.key === "ArrowDown") {
+        e.preventDefault()
+        handleNext()
+      } else if (e.key === "ArrowLeft" || e.key === "ArrowUp") {
+        e.preventDefault()
+        handlePrev()
+      }
+    }
+
+    window.addEventListener("keydown", handleKeyDown)
+    return () => window.removeEventListener("keydown", handleKeyDown)
+  }, [])
+
   const handleNext = () => {
     setCurrent((prev) => (prev + 1) % slides.length)
     setIsAutoPlay(false)
