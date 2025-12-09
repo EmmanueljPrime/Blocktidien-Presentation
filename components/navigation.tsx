@@ -43,6 +43,15 @@ export default function Navigation({
 
         {/* Controls */}
         <div className="flex items-center gap-6">
+          <a
+            href="https://leblocktidien.corentin-casset.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs font-sans uppercase tracking-widest text-gray-400 hover:text-black transition-colors underline decoration-gray-300 hover:decoration-black"
+            title="Accéder au site"
+          >
+            Le Blocktidien
+          </a>
           <button
             onClick={onAutoPlayToggle}
             className="text-xs font-sans uppercase tracking-widest text-gray-600 hover:text-black transition-colors"

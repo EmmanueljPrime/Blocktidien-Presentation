@@ -2494,6 +2494,15 @@
     font-variant-numeric: var(--tw-ordinal, ) var(--tw-slashed-zero, ) var(--tw-numeric-figure, ) var(--tw-numeric-spacing, ) var(--tw-numeric-fraction, );
   }
 
+  .underline {
+    text-decoration-line: underline;
+  }
+
+  .decoration-gray-300 {
+    -webkit-text-decoration-color: var(--color-gray-300);
+    text-decoration-color: var(--color-gray-300);
+  }
+
   .underline-offset-4 {
     text-underline-offset: 4px;
   }
@@ -3132,6 +3141,12 @@
   }
 
   @media (hover: hover) {
+    .hover\:bg-black:hover {
+      background-color: var(--color-black);
+    }
+  }
+
+  @media (hover: hover) {
     .hover\:bg-destructive\/90:hover {
       background-color: var(--destructive);
     }
@@ -3234,8 +3249,21 @@
   }
 
   @media (hover: hover) {
+    .hover\:text-white:hover {
+      color: var(--color-white);
+    }
+  }
+
+  @media (hover: hover) {
     .hover\:underline:hover {
       text-decoration-line: underline;
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:decoration-black:hover {
+      -webkit-text-decoration-color: var(--color-black);
+      text-decoration-color: var(--color-black);
     }
   }
 
