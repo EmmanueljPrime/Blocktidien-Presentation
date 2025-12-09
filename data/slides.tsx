@@ -99,22 +99,21 @@ const slides = [
         <h2 className="font-serif text-4xl mb-10 text-center">Focus Thématique</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="border-2 border-black p-6">
-            <h3 className="font-serif text-xl mb-4 uppercase tracking-wide text-center">Primaires</h3>
+            <h3 className="font-serif text-xl mb-4 uppercase tracking-wide text-center">Thèmes Principaux</h3>
             <div className="flex flex-wrap gap-3 justify-center">
-              <span className="px-3 py-1 border border-black text-sm">Tokenization</span>
-              <span className="px-3 py-1 border border-black text-sm">Layer 2</span>
-              <span className="px-3 py-1 border border-black text-sm">DeFi</span>
-              <span className="px-3 py-1 border border-black text-sm">RWA</span>
-              <span className="px-3 py-1 border border-black text-sm">MiCA</span>
+              <span className="px-3 py-1 border border-black text-sm">Cryptomonnaies</span>
+              <span className="px-3 py-1 border border-black text-sm">Blockchain</span>
+              <span className="px-3 py-1 border border-black text-sm">Finance décentralisée</span>
+              <span className="px-3 py-1 border border-black text-sm">NFT</span>
             </div>
           </div>
           <div className="border-2 border-black p-6">
-            <h3 className="font-serif text-xl mb-4 uppercase tracking-wide text-center">Contextuels</h3>
+            <h3 className="font-serif text-xl mb-4 uppercase tracking-wide text-center">Contexte</h3>
             <div className="flex flex-wrap gap-3 justify-center">
-              <span className="px-3 py-1 bg-gray-100 text-sm">CBDC</span>
-              <span className="px-3 py-1 bg-gray-100 text-sm">DAO</span>
-              <span className="px-3 py-1 bg-gray-100 text-sm">Validator</span>
-              <span className="px-3 py-1 bg-gray-100 text-sm">ZK</span>
+              <span className="px-3 py-1 bg-gray-100 text-sm">Réglementation</span>
+              <span className="px-3 py-1 bg-gray-100 text-sm">Sécurité</span>
+              <span className="px-3 py-1 bg-gray-100 text-sm">Adoption</span>
+              <span className="px-3 py-1 bg-gray-100 text-sm">Innovation</span>
             </div>
           </div>
         </div>
