@@ -19,8 +19,8 @@ const slides = [
     type: "context",
     content: (
       <SlideContent>
-        <h2 className="font-serif text-4xl mb-10">Contexte & Enjeux</h2>
-        <div className="space-y-6 font-sans text-base text-gray-800 leading-relaxed">
+        <h2 className="font-serif text-4xl lg:text-5xl xl:text-6xl mb-10">Contexte & Enjeux</h2>
+        <div className="space-y-6 font-sans text-base lg:text-lg xl:text-xl text-gray-800 leading-relaxed">
           <p className="border-l-4 border-black pl-6">
             <strong>Innovation sans précédent</strong> dans les technologies décentralisées et la finance numérique
           </p>
@@ -38,8 +38,8 @@ const slides = [
     type: "problem",
     content: (
       <SlideContent>
-        <h2 className="font-serif text-4xl mb-12">Le Défi</h2>
-        <ul className="space-y-6 font-sans text-lg text-gray-800">
+        <h2 className="font-serif text-4xl lg:text-5xl xl:text-6xl mb-12">Le Défi</h2>
+        <ul className="space-y-6 font-sans text-lg lg:text-xl xl:text-2xl text-gray-800">
           <li className="flex gap-4 items-start">
             <span className="text-gray-500 font-serif">I.</span>
             <span>Processus manuels <strong>inefficaces</strong></span>
@@ -61,8 +61,8 @@ const slides = [
     content: (
       <SlideContent>
         <div className="border-2 border-black p-10">
-          <p className="text-xs font-sans uppercase tracking-widest text-gray-600 mb-6 text-center">Project Objective</p>
-          <h2 className="font-serif text-3xl mb-8 text-center leading-tight">
+          <p className="text-xs lg:text-sm font-sans uppercase tracking-widest text-gray-600 mb-6 text-center">Project Objective</p>
+          <h2 className="font-serif text-3xl lg:text-4xl xl:text-5xl mb-8 text-center leading-tight">
             Fully automated system for continuous collection, synthesis, and distribution of Web3 technical information
           </h2>
           <p className="text-center text-sm text-gray-700 font-sans uppercase tracking-wide">Automated Web3 Watch Device — AW3D</p>
@@ -74,19 +74,19 @@ const slides = [
     type: "scope",
     content: (
       <SlideContent>
-        <h2 className="font-serif text-4xl mb-10">Périmètre de Veille</h2>
+        <h2 className="font-serif text-4xl lg:text-5xl xl:text-6xl mb-10">Périmètre de Veille</h2>
         <div className="space-y-8">
           <div className="border-l-4 border-black pl-6">
-            <h3 className="font-serif text-2xl mb-3 uppercase tracking-wide">Marchés Crypto</h3>
-            <p className="text-gray-700 text-base">Tokens, CBDC, adoption institutionnelle</p>
+            <h3 className="font-serif text-2xl lg:text-3xl xl:text-4xl mb-3 uppercase tracking-wide">Marchés Crypto</h3>
+            <p className="text-gray-700 text-base lg:text-lg xl:text-xl">Tokens, CBDC, adoption institutionnelle</p>
           </div>
           <div className="border-l-4 border-black pl-6">
-            <h3 className="font-serif text-2xl mb-3 uppercase tracking-wide">DeFi</h3>
-            <p className="text-gray-700 text-base">Protocoles, pools de liquidité, smart contracts</p>
+            <h3 className="font-serif text-2xl lg:text-3xl xl:text-4xl mb-3 uppercase tracking-wide">DeFi</h3>
+            <p className="text-gray-700 text-base lg:text-lg xl:text-xl">Protocoles, pools de liquidité, smart contracts</p>
           </div>
           <div className="border-l-4 border-black pl-6">
-            <h3 className="font-serif text-2xl mb-3 uppercase tracking-wide">Protocoles Core</h3>
-            <p className="text-gray-700 text-base">L1/L2, DAOs, interopérabilité</p>
+            <h3 className="font-serif text-2xl lg:text-3xl xl:text-4xl mb-3 uppercase tracking-wide">Protocoles Core</h3>
+            <p className="text-gray-700 text-base lg:text-lg xl:text-xl">L1/L2, DAOs, interopérabilité</p>
           </div>
         </div>
       </SlideContent>
@@ -101,19 +101,19 @@ const slides = [
           <div className="border-2 border-black p-6">
             <h3 className="font-serif text-xl mb-4 uppercase tracking-wide text-center">Thèmes Principaux</h3>
             <div className="flex flex-wrap gap-3 justify-center">
-              <span className="px-3 py-1 border border-black text-sm">Cryptomonnaies</span>
-              <span className="px-3 py-1 border border-black text-sm">Blockchain</span>
-              <span className="px-3 py-1 border border-black text-sm">Finance décentralisée</span>
-              <span className="px-3 py-1 border border-black text-sm">NFT</span>
+              <span className="px-3 py-1 border border-black text-sm lg:text-base xl:text-lg">Cryptomonnaies</span>
+              <span className="px-3 py-1 border border-black text-sm lg:text-base xl:text-lg">Blockchain</span>
+              <span className="px-3 py-1 border border-black text-sm lg:text-base xl:text-lg">Finance décentralisée</span>
+              <span className="px-3 py-1 border border-black text-sm lg:text-base xl:text-lg">NFT</span>
             </div>
           </div>
           <div className="border-2 border-black p-6">
             <h3 className="font-serif text-xl mb-4 uppercase tracking-wide text-center">Contexte</h3>
             <div className="flex flex-wrap gap-3 justify-center">
-              <span className="px-3 py-1 bg-gray-100 text-sm">Réglementation</span>
-              <span className="px-3 py-1 bg-gray-100 text-sm">Sécurité</span>
-              <span className="px-3 py-1 bg-gray-100 text-sm">Adoption</span>
-              <span className="px-3 py-1 bg-gray-100 text-sm">Innovation</span>
+              <span className="px-3 py-1 bg-gray-100 text-sm lg:text-base xl:text-lg">Réglementation</span>
+              <span className="px-3 py-1 bg-gray-100 text-sm lg:text-base xl:text-lg">Sécurité</span>
+              <span className="px-3 py-1 bg-gray-100 text-sm lg:text-base xl:text-lg">Adoption</span>
+              <span className="px-3 py-1 bg-gray-100 text-sm lg:text-base xl:text-lg">Innovation</span>
             </div>
           </div>
         </div>
@@ -124,8 +124,8 @@ const slides = [
     type: "methodology",
     content: (
       <SlideContent>
-        <h2 className="font-serif text-4xl mb-12">Méthodologie</h2>
-        <div className="space-y-6 font-sans text-base text-gray-800">
+        <h2 className="font-serif text-4xl lg:text-5xl xl:text-6xl mb-12">Méthodologie</h2>
+        <div className="space-y-6 font-sans text-base lg:text-lg xl:text-xl text-gray-800">
           <div className="border-l-4 border-black pl-6">
             <h3 className="font-semibold mb-2">Échantillonnage aléatoire</h3>
             <p className="text-gray-700">Sélection probabiliste évitant les biais</p>
@@ -146,7 +146,7 @@ const slides = [
     type: "process",
     content: (
       <SlideContent>
-        <h2 className="font-serif text-4xl mb-12 text-center">Architecture</h2>
+        <h2 className="font-serif text-4xl lg:text-5xl xl:text-6xl mb-12 text-center">Architecture</h2>
         <ProcessFlow
           steps={[
             {
@@ -212,22 +212,22 @@ const slides = [
     type: "data-model",
     content: (
       <SlideContent>
-        <h2 className="font-serif text-4xl mb-10">Modèle de Données</h2>
+        <h2 className="font-serif text-4xl lg:text-5xl xl:text-6xl mb-10">Modèle de Données</h2>
         <div className="space-y-6">
           <div className="border-l-4 border-black pl-6">
-            <h3 className="font-serif text-xl mb-2 uppercase tracking-wide">RSS Feeds</h3>
-            <p className="text-sm text-gray-700">Gestion sources + historique utilisation</p>
+            <h3 className="font-serif text-xl lg:text-2xl xl:text-3xl mb-2 uppercase tracking-wide">RSS Feeds</h3>
+            <p className="text-sm lg:text-base xl:text-lg text-gray-700">Gestion sources + historique utilisation</p>
           </div>
           <div className="border-l-4 border-black pl-6">
-            <h3 className="font-serif text-xl mb-2 uppercase tracking-wide">Articles</h3>
-            <p className="text-sm text-gray-700">Métadonnées brutes + flag export</p>
+            <h3 className="font-serif text-xl lg:text-2xl xl:text-3xl mb-2 uppercase tracking-wide">Articles</h3>
+            <p className="text-sm lg:text-base xl:text-lg text-gray-700">Métadonnées brutes + flag export</p>
           </div>
           <div className="border-l-4 border-black pl-6">
-            <h3 className="font-serif text-xl mb-2 uppercase tracking-wide">Written Articles</h3>
-            <p className="text-sm text-gray-700">Intelligence synthétisée finale</p>
+            <h3 className="font-serif text-xl lg:text-2xl xl:text-3xl mb-2 uppercase tracking-wide">Written Articles</h3>
+            <p className="text-sm lg:text-base xl:text-lg text-gray-700">Intelligence synthétisée finale</p>
           </div>
         </div>
-        <p className="text-center text-sm text-gray-600 mt-8 border-t-2 border-black pt-4">Séparation données brutes / intelligence finale</p>
+        <p className="text-center text-sm lg:text-base xl:text-lg text-gray-600 mt-8 border-t-2 border-black pt-4">Séparation données brutes / intelligence finale</p>
       </SlideContent>
     ),
   },
@@ -235,18 +235,18 @@ const slides = [
     type: "llm-role",
     content: (
       <SlideContent>
-        <h2 className="font-serif text-4xl mb-10">Rôle Dual du LLM</h2>
+        <h2 className="font-serif text-4xl lg:text-5xl xl:text-6xl mb-10">Rôle Dual du LLM</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="border-2 border-black p-6">
-            <h3 className="font-serif text-2xl mb-4 uppercase tracking-wide">Filtre</h3>
-            <p className="text-gray-700 text-sm">Identification pertinence et élimination du bruit</p>
+            <h3 className="font-serif text-2xl lg:text-3xl xl:text-4xl mb-4 uppercase tracking-wide">Filtre</h3>
+            <p className="text-gray-700 text-sm lg:text-base xl:text-lg">Identification pertinence et élimination du bruit</p>
           </div>
           <div className="border-2 border-black p-6">
-            <h3 className="font-serif text-2xl mb-4 uppercase tracking-wide">Analyste</h3>
-            <p className="text-gray-700 text-sm">Synthèse structurée + génération multimodale</p>
+            <h3 className="font-serif text-2xl lg:text-3xl xl:text-4xl mb-4 uppercase tracking-wide">Analyste</h3>
+            <p className="text-gray-700 text-sm lg:text-base xl:text-lg">Synthèse structurée + génération multimodale</p>
           </div>
         </div>
-        <p className="text-center text-sm text-gray-700 mt-6">Agrégation → Prompt → Output JSON → Persistence</p>
+        <p className="text-center text-sm lg:text-base xl:text-lg text-gray-700 mt-6">Agrégation → Prompt → Output JSON → Persistence</p>
       </SlideContent>
     ),
   },
@@ -254,27 +254,27 @@ const slides = [
     type: "daily-workflow",
     content: (
       <SlideContent>
-        <h2 className="font-serif text-4xl mb-12">Flux Quotidien</h2>
+        <h2 className="font-serif text-4xl lg:text-5xl xl:text-6xl mb-12">Flux Quotidien</h2>
         <div className="space-y-6 font-sans">
           <div className="flex gap-6 items-start border-l-2 border-black pl-6">
-            <div className="font-serif text-2xl text-gray-800 min-w-fit">01:00</div>
+            <div className="font-serif text-2xl lg:text-3xl xl:text-4xl text-gray-800 min-w-fit">01:00</div>
             <div>
-              <p className="font-semibold text-gray-900 mb-1">Collecte</p>
-              <p className="text-sm text-gray-700">10 sources • Articles &lt; 24h</p>
+              <p className="font-semibold text-gray-900 mb-1 text-base lg:text-lg xl:text-xl">Collecte</p>
+              <p className="text-sm lg:text-base xl:text-lg text-gray-700">10 sources • Articles &lt; 24h</p>
             </div>
           </div>
           <div className="flex gap-6 items-start border-l-2 border-black pl-6">
-            <div className="font-serif text-2xl text-gray-800 min-w-fit">02:00</div>
+            <div className="font-serif text-2xl lg:text-3xl xl:text-4xl text-gray-800 min-w-fit">02:00</div>
             <div>
-              <p className="font-semibold text-gray-900 mb-1">Analyse</p>
-              <p className="text-sm text-gray-700">Filtrage LLM • Synthèse • Génération image</p>
+              <p className="font-semibold text-gray-900 mb-1 text-base lg:text-lg xl:text-xl">Analyse</p>
+              <p className="text-sm lg:text-base xl:text-lg text-gray-700">Filtrage LLM • Synthèse • Génération image</p>
             </div>
           </div>
           <div className="flex gap-6 items-start border-l-2 border-black pl-6">
-            <div className="font-serif text-2xl text-gray-800 min-w-fit">02:15</div>
+            <div className="font-serif text-2xl lg:text-3xl xl:text-4xl text-gray-800 min-w-fit">02:15</div>
             <div>
-              <p className="font-semibold text-gray-900 mb-1">Publication</p>
-              <p className="text-sm text-gray-700">Plateforme web publique</p>
+              <p className="font-semibold text-gray-900 mb-1 text-base lg:text-lg xl:text-xl">Publication</p>
+              <p className="text-sm lg:text-base xl:text-lg text-gray-700">Plateforme web publique</p>
             </div>
           </div>
         </div>
@@ -300,19 +300,19 @@ const slides = [
     type: "trends",
     content: (
       <SlideContent>
-        <h2 className="font-serif text-4xl mb-10">Tendances Identifiées</h2>
+        <h2 className="font-serif text-4xl lg:text-5xl xl:text-6xl mb-10">Tendances Identifiées</h2>
         <div className="space-y-6">
           <div className="border-l-4 border-black pl-6">
-            <h3 className="font-serif text-2xl mb-2 uppercase tracking-wide">I. Maturation Réglementaire</h3>
-            <p className="text-sm text-gray-600">MiCA • Hubs asiatiques • Actions FSA</p>
+            <h3 className="font-serif text-2xl lg:text-3xl xl:text-4xl mb-2 uppercase tracking-wide">I. Maturation Réglementaire</h3>
+            <p className="text-sm lg:text-base xl:text-lg text-gray-600">MiCA • Hubs asiatiques • Actions FSA</p>
           </div>
           <div className="border-l-4 border-black pl-6">
-            <h3 className="font-serif text-2xl mb-2 uppercase tracking-wide">II. Convergence IA-Blockchain</h3>
-            <p className="text-sm text-gray-600">Hardware HPC • Storage décentralisé • GitHub Copilot</p>
+            <h3 className="font-serif text-2xl lg:text-3xl xl:text-4xl mb-2 uppercase tracking-wide">II. Convergence IA-Blockchain</h3>
+            <p className="text-sm lg:text-base xl:text-lg text-gray-600">Hardware HPC • Storage décentralisé • GitHub Copilot</p>
           </div>
           <div className="border-l-4 border-black pl-6">
-            <h3 className="font-serif text-2xl mb-2 uppercase tracking-wide">III. Interopérabilité</h3>
-            <p className="text-sm text-gray-600">Bridges L2 • USDC natif • Sécurité post-quantique</p>
+            <h3 className="font-serif text-2xl lg:text-3xl xl:text-4xl mb-2 uppercase tracking-wide">III. Interopérabilité</h3>
+            <p className="text-sm lg:text-base xl:text-lg text-gray-600">Bridges L2 • USDC natif • Sécurité post-quantique</p>
           </div>
         </div>
       </SlideContent>
@@ -322,19 +322,19 @@ const slides = [
     type: "risks-opportunities",
     content: (
       <SlideContent>
-        <h2 className="font-serif text-4xl mb-10">Risques & Opportunités</h2>
+        <h2 className="font-serif text-4xl lg:text-5xl xl:text-6xl mb-10">Risques & Opportunités</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="border-l-4 border-black pl-6">
-            <h3 className="font-serif text-xl mb-4 uppercase tracking-wider">Risques</h3>
-            <ul className="space-y-2 text-sm text-gray-700">
+            <h3 className="font-serif text-xl lg:text-2xl xl:text-3xl mb-4 uppercase tracking-wider">Risques</h3>
+            <ul className="space-y-2 text-sm lg:text-base xl:text-lg text-gray-700">
               <li className="flex gap-3"><span className="text-black font-bold">—</span> Exploits wallets</li>
               <li className="flex gap-3"><span className="text-black font-bold">—</span> Pressions réglementaires</li>
               <li className="flex gap-3"><span className="text-black font-bold">—</span> Fragmentation protocoles</li>
             </ul>
           </div>
           <div className="border-l-4 border-black pl-6">
-            <h3 className="font-serif text-xl mb-4 uppercase tracking-wider">Opportunités</h3>
-            <ul className="space-y-2 text-sm text-gray-700">
+            <h3 className="font-serif text-xl lg:text-2xl xl:text-3xl mb-4 uppercase tracking-wider">Opportunités</h3>
+            <ul className="space-y-2 text-sm lg:text-base xl:text-lg text-gray-700">
               <li className="flex gap-3"><span className="text-black font-bold">—</span> zKYC conformité</li>
               <li className="flex gap-3"><span className="text-black font-bold">—</span> Adoption institutionnelle</li>
               <li className="flex gap-3"><span className="text-black font-bold">—</span> Infrastructure IA décentralisée</li>
@@ -366,19 +366,19 @@ const slides = [
     type: "capitalization",
     content: (
       <SlideContent>
-        <h2 className="font-serif text-4xl mb-10">Capitalisation</h2>
+        <h2 className="font-serif text-4xl lg:text-5xl xl:text-6xl mb-10">Capitalisation</h2>
         <div className="space-y-6 text-gray-800">
           <div className="border-l-4 border-black pl-6">
-            <h3 className="font-serif text-xl mb-2 uppercase tracking-wide">Préservation</h3>
-            <p className="text-sm text-gray-700">Stockage permanent pour analyse historique</p>
+            <h3 className="font-serif text-xl lg:text-2xl xl:text-3xl mb-2 uppercase tracking-wide">Préservation</h3>
+            <p className="text-sm lg:text-base xl:text-lg text-gray-700">Stockage permanent pour analyse historique</p>
           </div>
           <div className="border-l-4 border-black pl-6">
-            <h3 className="font-serif text-xl mb-2 uppercase tracking-wide">Enrichissement</h3>
-            <p className="text-sm text-gray-700">Audit sources • Évolution prompt • Monitoring qualité</p>
+            <h3 className="font-serif text-xl lg:text-2xl xl:text-3xl mb-2 uppercase tracking-wide">Enrichissement</h3>
+            <p className="text-sm lg:text-base xl:text-lg text-gray-700">Audit sources • Évolution prompt • Monitoring qualité</p>
           </div>
           <div className="border-l-4 border-black pl-6">
-            <h3 className="font-serif text-xl mb-2 uppercase tracking-wide">Évolutions</h3>
-            <p className="text-sm text-gray-700">BI Grafana • Annotation collaborative • Scoring fiabilité</p>
+            <h3 className="font-serif text-xl lg:text-2xl xl:text-3xl mb-2 uppercase tracking-wide">Évolutions</h3>
+            <p className="text-sm lg:text-base xl:text-lg text-gray-700">BI Grafana • Annotation collaborative • Scoring fiabilité</p>
           </div>
         </div>
       </SlideContent>
