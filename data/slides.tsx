@@ -345,24 +345,6 @@ const slides = [
     ),
   },
   {
-    type: "diffusion",
-    content: (
-      <SlideContent>
-        <h2 className="font-serif text-4xl mb-10">Stratégie de Diffusion</h2>
-        <div className="space-y-6">
-          <div className="border-2 border-black p-6">
-            <h3 className="font-serif text-2xl mb-3 uppercase tracking-wide">Canal Principal</h3>
-            <p className="text-gray-700 text-base">Plateforme web publique • Format éditorial • Publication 02:15 CET</p>
-          </div>
-          <div className="border-l-4 border-black pl-6">
-            <h3 className="font-serif text-xl mb-2 uppercase tracking-wide">Canaux Secondaires</h3>
-            <p className="text-sm text-gray-700">Webhook Teams/Slack • GitHub documentation</p>
-          </div>
-        </div>
-      </SlideContent>
-    ),
-  },
-  {
     type: "capitalization",
     content: (
       <SlideContent>
