@@ -61,9 +61,9 @@ const slides = [
     content: (
       <SlideContent>
         <div className="border-2 border-black p-10">
-          <p className="text-xs lg:text-sm font-sans uppercase tracking-widest text-gray-600 mb-6 text-center">Objectif du projet</p>
+          <p className="text-xs lg:text-sm font-sans uppercase tracking-widest text-gray-600 mb-6 text-center">Project Objective</p>
           <h2 className="font-serif text-3xl lg:text-4xl xl:text-5xl mb-8 text-center leading-tight">
-            Système entièrement automatisé pour la collecte, la synthèse et la distribution continue d'informations techniques Web3.
+            Fully automated system for continuous collection, synthesis, and distribution of Web3 technical information
           </h2>
           <p className="text-center text-sm text-gray-700 font-sans uppercase tracking-wide">Automated Web3 Watch Device — AW3D</p>
         </div>
