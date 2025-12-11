@@ -373,11 +373,11 @@ const slides = [
             <p className="text-sm lg:text-base xl:text-lg text-gray-700">Stockage permanent pour analyse historique</p>
           </div>
           <div className="border-l-4 border-black pl-6">
-            <h3 className="font-serif text-xl lg:text-2xl xl:text-3xl mb-2 uppercase tracking-wide">Enrichissement</h3>
-            <p className="text-sm lg:text-base xl:text-lg text-gray-700">Audit sources • Évolution prompt • Monitoring qualité</p>
+            <h3 className="font-serif text-xl lg:text-2xl xl:text-3xl mb-2 uppercase tracking-wide">Amélioration Continue</h3>
+            <p className="text-sm lg:text-base xl:text-lg text-gray-700">Diversification des Sources • Évolution prompt • Fact-Checking</p>
           </div>
           <div className="border-l-4 border-black pl-6">
-            <h3 className="font-serif text-xl lg:text-2xl xl:text-3xl mb-2 uppercase tracking-wide">Évolutions</h3>
+            <h3 className="font-serif text-xl lg:text-2xl xl:text-3xl mb-2 uppercase tracking-wide">Futures Fonctionnalités</h3>
             <p className="text-sm lg:text-base xl:text-lg text-gray-700">Accessibilité • Comparatif d'IA  • Scoring fiabilité</p>
           </div>
         </div>
