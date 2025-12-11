@@ -356,7 +356,7 @@ const slides = [
           </div>
           <div className="border-l-4 border-black pl-6">
             <h3 className="font-serif text-xl mb-2 uppercase tracking-wide">Canaux Secondaires</h3>
-            <p className="text-sm text-gray-700">Partage Teams/Slack • GitHub documentation</p>
+            <p className="text-sm text-gray-700">Partage Teams/Slack</p>
           </div>
         </div>
       </SlideContent>
