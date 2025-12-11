@@ -366,7 +366,7 @@ const slides = [
     type: "capitalization",
     content: (
       <SlideContent>
-        <h2 className="font-serif text-4xl lg:text-5xl xl:text-6xl mb-10">Capitalisation</h2>
+        <h2 className="font-serif text-4xl lg:text-5xl xl:text-6xl mb-10">Pérennisation et évolutions de l’outil</h2>
         <div className="space-y-6 text-gray-800">
           <div className="border-l-4 border-black pl-6">
             <h3 className="font-serif text-xl lg:text-2xl xl:text-3xl mb-2 uppercase tracking-wide">Préservation</h3>
