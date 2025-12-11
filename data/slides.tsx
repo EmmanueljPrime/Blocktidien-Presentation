@@ -182,7 +182,7 @@ const slides = [
     type: "tech-stack",
     content: (
       <SlideContent>
-        <h2 className="font-serif text-4xl mb-10 text-center">Stack Technologique</h2>
+        <h2 className="font-serif text-4xl lg:text-5xl xl:text-6xl mb-10 text-center">Stack Technologique</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <TechCard
             icon="№ 1"
