@@ -378,7 +378,7 @@ const slides = [
           </div>
           <div className="border-l-4 border-black pl-6">
             <h3 className="font-serif text-xl lg:text-2xl xl:text-3xl mb-2 uppercase tracking-wide">Futures Fonctionnalités</h3>
-            <p className="text-sm lg:text-base xl:text-lg text-gray-700">Accessibilité • Comparatif d'IA  • Scoring fiabilité</p>
+            <p className="text-sm lg:text-base xl:text-lg text-gray-700">Accessibilité • Scoring fiabilité</p>
           </div>
         </div>
       </SlideContent>
