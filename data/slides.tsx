@@ -96,7 +96,7 @@ const slides = [
     type: "keywords",
     content: (
       <SlideContent>
-        <h2 className="font-serif text-4xl mb-10 text-center">Focus Thématique</h2>
+        <h2 className="font-serif text-4xl lg:text-5xl xl:text-6xl mb-10 text-center">Focus Thématique</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="border-2 border-black p-6">
             <h3 className="font-serif text-xl mb-4 uppercase tracking-wide text-center">Thèmes Principaux</h3>
@@ -285,7 +285,7 @@ const slides = [
     type: "metrics",
     content: (
       <SlideContent>
-        <h2 className="font-serif text-4xl mb-10 text-center">Performance</h2>
+        <h2 className="font-serif text-4xl lg:text-5xl xl:text-6xl mb-10 text-center">Performance</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 mb-8">
           <MetricBox number="25+" label="Flux RSS" />
           <MetricBox number="10" label="Flux/jour" />
@@ -409,7 +409,7 @@ const slides = [
     type: "impact",
     content: (
       <SlideContent>
-        <h2 className="font-serif text-4xl mb-10 text-center">Impératif Stratégique</h2>
+        <h2 className="font-serif text-4xl lg:text-5xl xl:text-6xl mb-10 text-center">Impératif Stratégique</h2>
         <div className="space-y-8">
           <p className="text-xl text-center text-gray-800 leading-relaxed border-l-4 border-r-4 border-black px-8 py-6">
             Automatisation complète <strong>libère les analystes</strong> pour l'<strong>interprétation stratégique</strong> et la <strong>prise de décision</strong>
