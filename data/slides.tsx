@@ -348,7 +348,7 @@ const slides = [
     type: "diffusion",
     content: (
       <SlideContent>
-        <h2 className="font-serif text-4xl mb-10">Stratégie de Diffusion</h2>
+        <h2 className="font-serif text-4xl lg:text-5xl xl:text-6xl mb-10">Stratégie de Diffusion</h2>
         <div className="space-y-6">
           <div className="border-2 border-black p-6">
             <h3 className="font-serif text-2xl mb-3 uppercase tracking-wide">Canal Principal</h3>
